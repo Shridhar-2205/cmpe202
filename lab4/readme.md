@@ -25,6 +25,8 @@ Responsibilities: Table size;
 Collaborator: Restaurant_System
 
 
+
+
 Design Patterns:
 1)	Objects: Customer and Restaurant_System
 
