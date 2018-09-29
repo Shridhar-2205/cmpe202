@@ -1,4 +1,4 @@
-
+CRC:
 1) Class: Customer
 
 Responsibilities: Add personal info: Name, Phone no.;
@@ -23,6 +23,7 @@ Responsibilities: Table size;
                   Gives Status-Occupied/ Unoccupied
 
 Collaborator: Restaurant_System
+
 
 Design Patterns:
 1)	Objects: Customer and Restaurant_System
