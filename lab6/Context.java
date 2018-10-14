@@ -15,7 +15,7 @@ public class Context {
       this.strategy = strategy;
    }
 
-   public String executeStrategy(){
-      return strategy.addToppings();
+   public String executeStrategy(String P, String Q, String R, String S, String T){
+      return strategy.Sort(P, Q, R, S, T);
    }
 }

@@ -9,5 +9,6 @@
  * @author DELL
  */
 public interface Strategy {
-    public String addToppings();
+    
+    public String Sort(String P, String Q, String R, String S, String U);
 }
