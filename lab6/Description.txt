@@ -1,1 +1,1 @@
-Here we have used Strategy Design Pattern to add toppings on runtime.
+Here we have used Strategy Design Pattern with a sorting based on packing and receipt.
