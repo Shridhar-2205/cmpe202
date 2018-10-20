@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Bun
+comment1.params=burger\ bun
+comment1.target=Bun(BurgerComponent,\ java.lang.String[])
+comment2.params=
+comment2.target=double\ cost()
+numComments=3

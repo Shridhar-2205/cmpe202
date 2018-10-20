@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=BurgerDecorator
+comment1.params=options
+comment1.target=void\ setOptions(java.lang.String[])
+comment2.params=arrayString
+comment2.target=java.lang.String\ getFormattedDescription(java.lang.String[])
+comment3.params=
+comment3.target=void\ printDescription()
+comment4.params=c
+comment4.target=void\ addChild(BurgerComponent)
+comment5.params=c
+comment5.target=void\ removeChild(BurgerComponent)
+comment6.params=i
+comment6.target=BurgerComponent\ getChild(int)
+comment7.params=option
+comment7.target=boolean\ checkEntryInOptions(java.lang.String)
+numComments=8
