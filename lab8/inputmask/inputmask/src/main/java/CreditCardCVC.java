@@ -19,10 +19,17 @@ public class CreditCardCVC implements IDisplayComponent, IKeyEventHandler
 
 	public void key(String ch, int cnt) {
 		if ( cnt >= 21 ) {
-			if ( cnt >= 21 && cnt <= 23 )
-				cvc += ch ;
-			else if ( nextHandler != null )
+			if ( cnt >= 21 && cnt <= 23 ){
+				if (!ch.equals("x") && !ch.equals("X")) {
+					cvc += ch;
+				} else if (cvc.length() > 0) {
+					cvc = cvc.substring(0, cvc.length() - 1);
+				}
+
+			}
+			else if ( nextHandler != null ){
 				nextHandler.key(ch, cnt) ;
+			}
 		}
 		
 	}	

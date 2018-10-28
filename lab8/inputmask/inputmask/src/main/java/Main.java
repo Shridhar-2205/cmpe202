@@ -18,8 +18,8 @@ class Main
     {
         App app = new App() ;
         Console c = System.console() ;
+        
         for (;;) {
-            System.out.print("\033[H\033[2J") ; // clear the screen
             System.out.flush() ;
             System.out.println( app.display() ) ;
             System.out.print( "Key (Digit or X or Delete) => " ) ;

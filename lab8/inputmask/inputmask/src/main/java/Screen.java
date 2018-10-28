@@ -9,7 +9,7 @@ public class Screen implements IScreen, IDisplayComponent
 
     public Screen()
     {
-        // no constructor elements
+        
     }
 
     public void key(String ch, int cnt) {
