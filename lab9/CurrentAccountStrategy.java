@@ -7,7 +7,7 @@ public class CurrentAccountStrategy implements InterestStrategy {
 
 		System.out.println("Current Account");
 
-		double tax = amount * 0.02;
-		return tax;
+		double interest = amount * 0.02;
+		return interest;
 	}
 }

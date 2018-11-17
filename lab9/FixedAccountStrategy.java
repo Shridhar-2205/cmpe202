@@ -7,7 +7,7 @@ public class FixedAccountStrategy implements InterestStrategy {
 
 		System.out.println("Fixed Account");
 
-		double tax = amount * 0.09;
-		return tax;
+		double interest = amount * 0.09;
+		return interest;
 	}
 }

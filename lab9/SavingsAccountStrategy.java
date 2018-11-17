@@ -7,7 +7,7 @@ public class SavingsAccountStrategy implements InterestStrategy {
 
 		System.out.println("Savings Account");
 
-		double tax = amount * 0.04;
-		return tax;
+		double interest = amount * 0.04;
+		return interest;
 	}
 }
